@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1066173219390",
+    "project_id": "elpo-1ef2a",
+    "storage_bucket": "elpo-1ef2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066173219390:android:80a488b216625c5b48c76f",
+        "android_client_info": {
+          "package_name": "com.example.elpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066173219390-dq4cjhjsogs3k288bmvckqtor0vs883m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elpo",
+            "certificate_hash": "237e79216af6d0480408f27ce7b6b5265b192ea7"
+          }
+        },
+        {
+          "client_id": "1066173219390-39id84nngge3cib1uctvtsbfnjra5n4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtg-ZpuVsObBLMJRlpdDCpJkXYoFtsz40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066173219390-39id84nngge3cib1uctvtsbfnjra5n4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
