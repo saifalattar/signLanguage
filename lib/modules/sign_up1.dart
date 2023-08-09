@@ -42,7 +42,7 @@ class SignUpPage1 extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       const Text(
-                        "ELPO Sign",
+                        "ELPO Sign Up",
                         style: TextStyle(
                           color: Colors.green,
                           fontSize: 40.0,
@@ -226,7 +226,7 @@ class SignUpPage1 extends StatelessWidget {
                                   onTap: () {
                                     if (formKey.currentState!.validate()) {
                                       print("email: ${EmailController.text}, pass:${PasswordController.text}");
-                                      Navigator.push(context, MaterialPageRoute(builder: (context)=>SignUpPage2(EmailController,PasswordController)));
+                                      Navigator.push(context, MaterialPageRoute(builder: (context)=>const signup2()));
                                     }
                                   },
                                   child: Container(

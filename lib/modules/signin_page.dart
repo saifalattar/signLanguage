@@ -1,5 +1,6 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:elpo/modules/sign_up1.dart';
+import 'package:elpo/modules/sign_up2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -43,11 +44,11 @@ class LoginPage extends StatelessWidget {
                         padding: const EdgeInsets.all(20),
                         margin: const EdgeInsets.symmetric(horizontal: 15),
                         decoration: BoxDecoration(
-                            color: whiteColor,
-                            borderRadius: const BorderRadius.only(
-                                topLeft: Radius.circular(10),
-                                topRight: Radius.circular(10),
-                            ),
+                          color: whiteColor,
+                          borderRadius: const BorderRadius.only(
+                            topLeft: Radius.circular(10),
+                            topRight: Radius.circular(10),
+                          ),
                         ),
                         child: Form(
                           key: formKey,
@@ -172,7 +173,8 @@ class LoginPage extends StatelessWidget {
                                 builder: (context) => InkWell(
                                   onTap: () {
                                     if (formKey.currentState!.validate()) {
-                                      cubit.loginAccount(emailController, passController);
+                                      cubit.loginAccount(
+                                          emailController, passController);
                                     }
                                   },
                                   child: Container(
@@ -295,7 +297,11 @@ class LoginPage extends StatelessWidget {
                                   ),
                                   TextButton(
                                       onPressed: () {
-                                        Navigator.push(context, MaterialPageRoute(builder: (context)=>SignUpPage1()));
+                                        Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                                builder: (context) =>
+                                                    signup2()));
                                       },
                                       child: Text(
                                         "Create Account",
