@@ -59,6 +59,7 @@ class TranslateCubit extends Cubit<States> {
   }
 
   Future predictImage() async {
+    // ML model with API
     FormData formData = FormData.fromMap({
       "file": await MultipartFile.fromFile(image!.path, filename: "image"),
     });
